@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
     // Write, using a while loop, a program that calculates the median of N numbers entered by the user.
@@ -6,7 +8,7 @@ public class App {
         int count = 0;
         double median = 0.0;
 
-        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number of values you want to calculate the median for:");
         int n = scanner.nextInt();
 
